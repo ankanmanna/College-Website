@@ -11,5 +11,5 @@
 👉   https://collegewebsite-ankanmanna.netlify.app
 
 
-# Technologies Used
+# technologies used
   HTML, CSS
