@@ -6,7 +6,6 @@
 
 
 
-# open your browser
 
 👉   https://collegewebsite-ankanmanna.netlify.app
 
