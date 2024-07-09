@@ -611,14 +611,14 @@ ul.placement-company {
     background-color: gold;
     margin-top:10px;
 }
-/************footer copyright ********************/
+/************footer copyright ### COMPLETE ********************/
 .footer2-bacbor {
 	background: #232F3E;
 	padding:10px 0px;
 	border-top: 1px solid #898989;
 }
 .footer2-content {
-	font-size:10px;
+	font-size:12px;
 	color:#fff;
 	text-align:center;
 }
