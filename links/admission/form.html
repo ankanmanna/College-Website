@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admission form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+   <link rel="stylesheet" href="formstyle.css">
+  </head>
+  <body>
+
+<!------#### FORM HEADER LOGO START ##------>
+    <div class="testbox">
+      <form action="#">
+        <div class="banner">
+          <img src="/site-icon.png" alt="" height="100" >
+        </div>
+      
+        <h1>Admission form</h1>        
+        <p class="top-info">Welcome to <b>Private College</b>, We are excited that you are considering joining our community. Our admissions process is designed to be as straightforward as possible. Whether you are a high school student, a transfer student, an international student, or a graduate applicant, we are here to assist you every step of the way.</p>
+       <!------#### FORM HEADER LOGO ENDS ##------>
+       <br>
+       </br>
+
+<!------#### FORM MAIN SECTIONS START ##------>
+        <div class="item">
+          <p>Name<span class="required"> *</span></p>
+          <div class="name-item">
+            <input type="text" name="name" placeholder="Full Name" required/>
+          </div>
+        </div>
+
+        <div class="gender">
+          <p>Select Gender</p>
+          <div class="">
+            <div>
+              <input type="radio" value="none" id="radio_1" name="references" />
+              <label for="radio_1" class="radio"><span>Male</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="radio_2" name="references" />
+              <label for="radio_2" class="radio"><span>Female</span></label>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="contact-item">
+          <div class="item">
+            <p>Email<span class="required"> *</span></p>
+            <input type="text" name="name" placeholder="Email" required/>
+          </div>
+          <div class="item">
+            <p>Phone<span class="required"> *</span></p>
+            <input type="text" name="name" placeholder="Phone" required/>
+          </div>
+        </div>
+
+
+        <!--add adress-->
+        <div class="flex">
+          <p>Address<span class="address"> *</span></p>
+          <div class="flex1">
+            <select required>
+              <option value="1"> India</option>
+            </select>
+          
+          <select required>
+            <option value="1"> Assam</option>
+            <option value="2"> Bihar</option>
+            <option value="3"> Kerala</option>
+            <option value="4"> Odisha</option>
+            <option value="5"> West Bengal </option>
+          </select>
+          </div>
+          <div class="flex2">
+          <input type="text" id="name" name="name-input"  placeholder="City" required>
+          <input type="text" id="lastName" name="lastName-input"  placeholder="Pin Code" required>
+
+          </div>
+        </div>
+
+
+        <div class="position-item">
+          <div class="item">
+            <p>Select a Course<span class="required"> *</span></p>
+            <select required>
+              <option value="">-- Please choose a course --</option>
+              <option value="1">Diploma in Information Technology</option>
+              <option value="2">Masters in Computer Applications</option>
+              <option value="3">Diploma in Electrical Engineering</option>
+              <option value="4">Diploma in Computer Programming</option>
+              <option value="5">Master of Business Administration</option>
+              <option value="6">Diploma in Biomedical Engineering </option>
+              <option value="7">Diploma in Data Science</option>
+              <option value="8">Diploma in Chemical Engineering</option>
+            </select>
+          </div>
+
+          <div class="item">
+            <p>DOB<span class="required"> *</span></p>
+            <input type="date" name="bdate" required/>
+          </div>
+        </div>
+
+        <div class="course">
+          <p> Select Your Stream</p>
+          <div>
+            <div>
+              <input type="radio" value="none" id="stream_1" name="status" required/>
+              <label for="stream_1" class="radio"><span>B.A</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="stream_2" name="status" required/>
+              <label for="stream_2" class="radio"><span>B.Com</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="stream_3" name="status" required/>
+              <label for="stream_3" class="radio"><span>B.Sc</span></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <p>Submit your 12 result by providing your result attach file:</p>
+          <input type="file" name="file" accept="file/*" required>
+        </div>
+
+        
+
+
+        <div class="btn-block">
+          <button type="submit" href="#">Submit</button>
+        </div>
+      </form>
+    </div>
+<!------#### FORM MAIN SECTIONS ENDS ##------>
+
+
+  </body>
+</html>
