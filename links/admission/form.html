@@ -1,142 +1,186 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admission Form</title>
-  <link rel="icon" href="/icons/site-icon.png" type="png/icon" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-  <link rel="stylesheet" href="formstyle.css">
-</head>
-<body>
-  <!------#### FORM HEADER LOGO START ##------>
-  <div class="testbox">
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="icon" href="/icons/site-icon.png" type="png/icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="formstyle.css"> 
+  </head>
+  <body>
+    <!--====# FORM HEADER #====-->
     <form action="#">
       <div class="banner">
         <img src="/icons/site-icon.png" alt="" height="100" >
       </div>
     
-      <h1>Admission form</h1>        
-      <p class="top-info">Welcome to <b>Private College</b>, We are excited that you are considering joining our community. Our admissions process is designed to be as straightforward as possible. Whether you are a high school student, a transfer student, an international student, or a graduate applicant, we are here to assist you every step of the way.</p>
-     <!------#### FORM HEADER LOGO ENDS ##------>
-     <br>
-     </br>
-
-<!------#### FORM MAIN SECTIONS START ##------>
+      <h1>Admission Form</h1>        
+      <p class="top-info">Welcome to <b>Private College</b>, We are excited that you are considering joining our community. Our admissions process is designed to be as straight forward as possible. Whether you are a high school student, a transfer student, an international student, or a graduate applicant, we are here to assist you every step of the way.</p>
+    <!--========# FORM HEADER END #=======-->
+    <br>
+    <!--========/// FORM MAIN INFO SECTIONS  /////=========-->
+    <!--NAME SECTIONS-->
+    <div class="item">
+      <p>Name <b class="star">*</b></p>
+      <div class="name-item">
+        <input type="text" name="name" placeholder="First Name" required/>
+        <input type="text" name="name" placeholder="Last Name" required/>
+      </div>
+    </div>
+    <!--EMAIL OR PHONE SECTIONS-->
+    <div class="contact-item">
       <div class="item">
-        <p>Name<span class="required"> *</span></p>
-        <div class="name-item">
-          <input type="text" name="name" placeholder="Full Name" required/>
-        </div>
+        <p>Email <b class="star">*</b></p>
+        <input type="text" name="email" placeholder="Email" required/>
       </div>
-
-      <div class="gender">
-        <p>Select Gender</p>
-        <div class="">
-          <div>
-            <input type="radio" value="none" id="radio_1" name="references" />
-            <label for="radio_1" class="radio"><span>Male</span></label>
-          </div>
-          <div>
-            <input type="radio" value="none" id="radio_2" name="references" />
-            <label for="radio_2" class="radio"><span>Female</span></label>
-          </div>
-        </div>
+      <div class="item">
+        <p>Phone <b class="star">*</b></p>
+        <input type="text" name="phone" placeholder="Phone" required/>
       </div>
-
-
-      <div class="contact-item">
-        <div class="item">
-          <p>Email<span class="required"> *</span></p>
-          <input type="text" name="name" placeholder="Email" required/>
-        </div>
-        <div class="item">
-          <p>Phone<span class="required"> *</span></p>
-          <input type="text" name="name" placeholder="Phone" required/>
-        </div>
-      </div>
-
-
-      <!--add adress-->
-      <div class="flex">
-        <p>Address<span class="address"> *</span></p>
-        <div class="flex1">
-          <select required>
-            <option value="1"> India</option>
-          </select>
-        
+    </div>
+    <!--SEMESTER OPTIONS OR DOB SECTIONS-->
+    <div class="position-item">
+      <div class="item">
+        <p>Semester <b class="star">*</b></p>
         <select required>
-          <option value="1"> Assam</option>
-          <option value="2"> Bihar</option>
-          <option value="3"> Kerala</option>
-          <option value="4"> Odisha</option>
-          <option value="5"> West Bengal </option>
+          <option value="">-- Select semester --</option>
+          <option value="1">Semester 1</option>
+          <option value="2">Semester 2</option>
+          <option value="3">Semester 3</option>
+          <option value="4">Semester 4</option>
+          <option value="5">Semester 5</option>
+          <option value="6">Semester 6</option>
         </select>
-        </div>
-        <div class="flex2">
-        <input type="text" id="name" name="name-input"  placeholder="City" required>
-        <input type="text" id="lastName" name="lastName-input"  placeholder="Pin Code" required>
-
-        </div>
       </div>
-
-
-      <div class="position-item">
-        <div class="item">
-          <p>Select a Course<span class="required"> *</span></p>
-          <select required>
-            <option value="">-- Please choose a course --</option>
-            <option value="1">Diploma in Information Technology</option>
-            <option value="2">Masters in Computer Applications</option>
-            <option value="3">Diploma in Electrical Engineering</option>
-            <option value="4">Diploma in Computer Programming</option>
-            <option value="5">Master of Business Administration</option>
-            <option value="6">Diploma in Biomedical Engineering </option>
-            <option value="7">Diploma in Data Science</option>
-            <option value="8">Diploma in Chemical Engineering</option>
-          </select>
-        </div>
-
-        <div class="item">
-          <p>DOB<span class="required"> *</span></p>
-          <input type="date" name="bdate" required/>
-        </div>
+      <div class="item">
+        <p>DOB <b class="star">*</b></p>
+        <input type="date" name="bdate" required/>
       </div>
-
-      <div class="course">
-        <p> Select Your Stream *</p>
+    </div>
+    <!--GENDER SECTIONS RADIO BUTTONS-->
+    <div class="question">
+      <p>gender <b class="star">*</b></p>
+      <div class="question-answer">
         <div>
-          <div>
-            <input type="radio" value="none" id="stream_1" name="status" required/>
-            <label for="stream_1" class="radio"><span>B.A</span></label>
-          </div>
-          <div>
-            <input type="radio" value="none" id="stream_2" name="status" required/>
-            <label for="stream_2" class="radio"><span>B.Com</span></label>
-          </div>
-          <div>
-            <input type="radio" value="none" id="stream_3" name="status" required/>
-            <label for="stream_3" class="radio"><span>B.Sc</span></label>
-          </div>
+          <input type="radio" value="male" id="radio_1" name="status" required/>
+          <label for="radio_1" class="radio"><span>Male</span></label>
+        </div>
+        <div>
+          <input type="radio" value="female" id="radio_2" name="status" required/>
+          <label for="radio_2" class="radio"><span>Female</span></label>
         </div>
       </div>
+    </div>
+    <!--===# ADDRESS SECTIONS-->
+
+    <div class="position-item">
+      <div class="item">
+        <p>Country <b class="star">*</b></p>
+        <select required>
+          <option value="1">India</option>
+        </select>
+      </div>
+      <div class="item">
+        <p>State <b class="star">*</b></p>
+        <select required>
+          <option value="">-- Select your state --</option>
+          <option value="1">Assam</option>
+          <option value="2">Gujarat</option>
+          <option value="3">Karnataka</option>
+          <option value="4">Maharashtra</option>
+          <option value="5">Sikkim</option>
+          <option value="5">West Bengal</option>
+        </select>            
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="name-item">
+        <input type="text" name="city" placeholder="City" required/>
+        <input type="text" name="pin" placeholder="Pin Code" required/>
+      </div>
+    </div>
+    <br>
+
+    <!--COURSE'S-->
 
       <div class="item">
-        <p>Submit your 12 result by providing your result attach file:</p>
-        <input type="file" name="file" accept="file/*" required>
+        <p>Course <b class="star">*</b></p>
+        <select required>
+          <option value="">-- Select a course --</option>
+          <option value="1">Diploma in Information Technology</option>
+          <option value="2">Masters in Computer Applications</option>
+          <option value="3">Diploma in Electrical Engineering</option>
+          <option value="4">Diploma in Computer Programming</option>
+          <option value="5">Master of Business Administration</option>
+          <option value="6">Diploma in Biomedical Engineering</option>
+          <option value="7">Diploma in Medical Laboratory Technology</option>
+          <option value="8">Diploma in Chemical Engineering</option>
+        </select>
       </div>
+      <!--STREAMS-->
 
+      <div class="question">
+        <p>Your stream<b class="star">*</b></p>
+        <div class="question-answer" >
+          <div>
+            <input type="radio" value="ba" id="radio_5" name="stream" required>
+            <label for="radio_5" class="radio"><span>B.A</span></label>
+          </div>
+          <div>
+            <input type="radio" value="bcom" id="radio_6" name="stream" required />
+            <label for="radio_6" class="radio"><span>B.Com</span></label>
+          </div>
+          <div>
+            <input type="radio" value="bsc" id="radio_7" name="stream" required />
+            <label for="radio_7" class="radio"><span>B.Sc</span></label>
+          </div>
+        </div>
+
+<!--ADD A VIA FILE-->
+
+    <div class="item">
+      <p>Submit your 12th result by providing your result attach file <b class="star">*</b></p>
+       <input type="file" name="file" accept="file/*" required>
+    </div>
+
+    <!--EXTRA INFO-->
+
+      <p>Do you suffer from any medical condition/disability that may affect your studies? <b class="star">*</b></p>
+       <div class="question-answer">
+        <div>
+
+          <input type="radio" id="yes" value="check" name="check" required />
+          <label for="yes" class="radio"><span>Yes</span></label>
+        </div>
       
-
-
-      <div class="btn-block">
-        <button type="submit" href="#">Submit</button>
+        <div>
+          <input type="radio" id="no" value="check" name="check" required/>
+          <label for="no" class="radio"><span>No</span></label>
+        </div>
       </div>
-    </form>
-  </div>
-<!------#### FORM MAIN SECTIONS ENDS ##------>
 
+      <!--PASSWORD SECTION -->
 
-  
-</body>
+      <div class="item">
+        <p>Password <b class="star">*</b></p>
+        <div class="name-item">
+          <input type="password" name="passwd" placeholder="Create password" required/>
+          <input type="password" name="passwd" placeholder="Confirm password" required/>
+        </div>
+      </div>
+      <br>
+      <br>
+      <!--MAIN SUBMIT BUTTON-->
+   
+    <div class="btn-block">
+      <button type="submit" href="">Submit</button>
+    </div>
+  </form>
+
+  <!--==========#ENDS FORM FOR MAIN CONTENT OF HTML #=======-->
+  </body>
 </html>
+
