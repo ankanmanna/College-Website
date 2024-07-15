@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(18, 41, 52);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;  
+    padding: 25px;
+}
+
+.container form{
+    width: 700px;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+}
+form .row{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.row .column{
+    flex: 1 1 250px;
+}
+
+
+.column .title{
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.column .input-box{
+    margin: 15px 0;
+}
+
+.input-box span{
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-box input{
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.input-box select{
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.column .flex{
+    display: flex;
+    gap: 15px;
+}
+
+.flex .input-box{
+    margin-top: 5px;
+}
+
+
+.btn-group{
+    display: flex;
+    gap: 10px;
+   }
+
+   .card{
+    background-color: rgb(237, 237, 237);
+    color: #434343;
+   }
+
+
+
+   button {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    background: #3782c3;
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+    }
+
+form .btn{
+    width: 100%;
+    padding: 12px;
+    background: #3782c3;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+}

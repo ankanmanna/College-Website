@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Fees</title>
+    <link rel="icon" href="icons/site-icon.png" type="png/icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="feesstyle.css">
+</head>
+<body>
+     <!--start payment form-->
+
+     <div class="container">
+        <form action="">
+            <div class="row">
+                <div class="column">
+                    <h3 class="title">college  fees</h3>   <!--fees heading -->
+
+                    <br>
+                    <!--FEES required SECTIONS //////-->
+                    <div class="input-box">
+                        <span>Name</span>
+                        <input type="text" placeholder="Full name" required />
+                    </div>
+                    <div class="input-box">
+                        <span>Phone</span>
+                        <input type="text" placeholder="Phone number" required/>
+                    </div>
+                    <div class="input-box">
+                        <span>Registration</span>
+                        <input type="text" placeholder="Registration number" required/>
+                    </div>
+                    <div class="input-box">
+                        <span>Roll </span>
+                        <input type="text" placeholder="Roll number" required/>    
+                    </div>
+                    <div class="input-box">
+                        <select class="input-box" required>
+                            <option value=""> -- Select your course --</option>
+                            <option value="1">Diploma in Information Technology</option>
+                            <option value="2">Masters in Computer Applications</option>
+                            <option value="3">Diploma in Electrical Engineering</option>
+                            <option value="4">Diploma in Computer Programming</option>
+                            <option value="5">Master of Business Administration</option>
+                            <option value="6">Diploma in Biomedical Engineering</option>
+                            <option value="7">Diploma in Medical Laboratory Technology</option>
+                            <option value="8">Diploma in Chemical Engineering</option>
+                          </select>
+                            <div class="input-box">
+                                <select class="input-box" required>
+                                    <option value=""> -- Select your semester --</option>
+                                    <option value="1">1 Semester</option>
+                                    <option value="2">2 Semester</option>
+                                    <option value="3">3 Semester</option>
+                                    <option value="4">4 Semester</option>
+                                    <option value="5">5 Semester</option>
+                                    <option value="6">6 Semester</option>
+                                </select>
+                            </div>
+                    </div>
+                    </div>       
+                </div>
+                <br>
+            
+
+                <div class="column">
+                    <h3 class="title">payment</h3>   <!--@@@@ PAYMENT HEADING -->
+                    <br>
+                    <div class="btn-group" style="width:100%">
+                        <button style="width:50%"><span><i class="fa fa-credit-card"></i> CREDIT CARD</span></button>
+                        <button class="card" style="width:50%"><span><i class="fa fa-paypal"></i> PAYPAL</span></button>
+                        <button class="card" style="width:50%"><span><i class="fa fa-bank"></i> NET BANK</span></button>
+                      </div>
+
+                    <div class="input-box">
+                        <span>Card owner </span>
+                        <input type="text" placeholder="Card owner name ">
+                    </div>
+                    <div class="input-box">
+                        <span>Card number</span>
+                        <input type="text" placeholder="Card number" >
+                    </div>
+
+                    <div class="flex">
+                        <div class="input-box">
+                            <span>Exp. month</span>
+                            <input type="text" placeholder="MM">
+                        </div>
+                        <div class="input-box">
+                            <span>Exp. year</span>
+                            <input type="text" placeholder="YY" >
+                        </div>
+                        <div class="input-box">
+                            <span>CVV number</span>
+                            <input type="text" placeholder="CVV">
+                        </div>
+                    </div>       
+                </div>
+                <br>
+                <br>
+                <button type="submit" class="btn"> submit</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
