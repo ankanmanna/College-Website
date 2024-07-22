@@ -7,5 +7,5 @@
 👉   https://collegewebsite-ankanmanna.netlify.app
 
 
-# technologies used
+<h2>technologies used</h2>
   HTML, CSS
