@@ -27,7 +27,7 @@ html, body {
     display:table;
 }
 .width-100 {
-    width: 100%;
+    min-width: 100%;
     float: left;
 }
 .width-25 {
@@ -60,7 +60,7 @@ html, body {
     margin-top:50px;
 }
 .main-section{
-    width: 100%;
+    min-width: 100%;
     float: left;
     padding-top:40px;
     padding-bottom:40px;
@@ -147,8 +147,8 @@ html, body {
 }
 /********** Logo And Main Menu CSS Ends **********/
 /********** Slider CSS Starts **********/  
-.main-banner {
-    width:100%;
+.collage-image{
+   width: 1100px;
 }
 /********** Slider CSS Ends **********/
 
@@ -525,8 +525,9 @@ ul.placement-company {
     background-color:#1f2836;
     padding-top: 70px;
     padding-bottom:70px;
-    width:100%;
+    min-width:100%;
     float:left;
+    position: relative;
 }
 .footer-link h2 {
     color:#fff;
@@ -613,9 +614,12 @@ ul.placement-company {
 }
 /************footer copyright ### COMPLETE ********************/
 .footer2-bacbor {
+    min-width:100% ;
 	background: #232F3E;
 	padding:10px 0px;
 	border-top: 1px solid #898989;
+    position: absolute;
+    bottom: 0;
 }
 .footer2-content {
 	font-size:12px;
@@ -624,3 +628,10 @@ ul.placement-company {
 }
 /*********END*********/
 /********** Footer CSS Ends **********/
+
+
+@media (min-width:1105px){
+    .collage-image{
+        width: 100%;
+    }
+}
