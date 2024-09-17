@@ -125,10 +125,12 @@ html, body {
 }
 .logo img {
     height:50px;
+    padding-left: 15px;   
 }
 .head-menu {
     padding-top: 25px;
     padding-bottom: 12px;
+    padding-right: 15px;   
 }
 .head-menu ul {
     list-style: none;
@@ -215,6 +217,7 @@ html, body {
     color: #5084e4;
     font-size: 28px;
     line-height: 20px;
+    padding-left: 15px;  
 }
 .heading-border {
     background-color: #ffc600;
@@ -224,6 +227,7 @@ html, body {
     margin-top: 0;
     position: relative;
     width: 100px;
+    margin-left: 15px;
 }
 .about-campus {
     width: 100%;
@@ -248,7 +252,7 @@ html, body {
     margin-bottom:8px;
 }
 .about-campus li i {
-    color: #5084e4;   /*5084e4  === */
+    color: #5084e4;   
 }
 .about-year {
     margin-top:40px;
@@ -337,18 +341,21 @@ html, body {
 .popular-course h2 {
     color: #5084e4;
     font-size: 28px;
+    padding-left: 15px;  
 }
 .popular-course p {
     font-size: 14px;
     margin-top: 10px;
     line-height: 25px;
     font-weight: 400;
+    padding-left: 15px;  
 }
 .popular-course a {
     text-decoration: none;
     color: #5084e4;
     float: left;
     margin-top: 20px;
+    padding-left: 15px;  
 }
 .bg-yellow {
     background:#ffc252 
@@ -533,11 +540,13 @@ ul.placement-company {
     color:#fff;
     text-align:left;
     margin-bottom: 20px;
+    padding-left: 10px;   
 }
 .footer-link p {
     color: #fff;
     line-height: 20px;
     padding: 0px 30px 0px 0px;
+    padding-left: 10px;   
 }
 .social-icon {
     list-style: none;
@@ -611,6 +620,10 @@ ul.placement-company {
     border-radius: 4px;
     background-color: gold;
     margin-top:10px;
+}
+
+.footer-section .width-25{  /*last update */
+    padding-right: 10px;
 }
 /************footer copyright ### COMPLETE ********************/
 .footer2-bacbor {
