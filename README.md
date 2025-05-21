@@ -4,7 +4,7 @@
 
 
 
-👉   https://collegewebsite-ankanmanna.netlify.app
+👉  https://ankanmanna.github.io/College-Website/
 
 
 <h2>technologies used</h2>
