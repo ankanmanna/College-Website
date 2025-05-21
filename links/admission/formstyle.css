@@ -172,3 +172,9 @@ html, body {
     width: 100%;
     }
     }
+
+    @media (max-width: 568px){
+    form {
+    padding: 50px;
+    }
+    }
