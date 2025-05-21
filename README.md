@@ -7,5 +7,5 @@
 👉  https://ankanmanna.github.io/College-Website/
 
 
-<h2>technologies used</h2>
+<h2>technologies</h2>
   HTML, CSS
