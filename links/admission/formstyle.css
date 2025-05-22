@@ -28,11 +28,10 @@ html, body {
     padding: 20px;
     }
     form {
-    padding: 5em 30em;
+    padding: 50px;
     border-radius: 6px;
     background: #ffffff;
-
-    }
+    } 
    .banner {
     
     position: relative;  
@@ -154,27 +153,30 @@ html, body {
     }       
 
     @media (min-width: 568px) {
-    .name-item, .contact-item, .position-item {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    }
-    .name-item input {
-    width: calc(50% - 20px);
-    }
-    .contact-item .item, .position-item .item {
-    width: calc(50% - 8px);
-    }
-    .contact-item input, .position-item input {
-    width: calc(100% - 12px);
-    }
-    .position-item select {
-    width: 100%;
-    }
-    }
+ 
+        .name-item, .contact-item, .position-item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+        .name-item input {
+        width: calc(50% - 20px);
+        }
+        .contact-item .item, .position-item .item {
+        width: calc(50% - 8px);
+        }
+        .contact-item input, .position-item input {
+        width: calc(100% - 12px);
+        }
+        .position-item select {
+        width: 100%;
+        }
+        }
 
-    @media (max-width: 568px){
-    form {
-    padding: 50px;
-    }
+
+
+    @media(min-width: 1450px) {
+        form{
+            padding: 5em 30em;
+        }
     }
