@@ -173,10 +173,3 @@ html, body {
         }
         }
 
-
-
-    @media(min-width: 1450px) {
-        form{
-            padding: 5em 30em;
-        }
-    }
